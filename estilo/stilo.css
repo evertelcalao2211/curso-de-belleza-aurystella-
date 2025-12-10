@@ -1,0 +1,1120 @@
+
+/*<!--header estatico que tiene el logo fijado -->*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px  black;
+    z-index: 2;
+    background: transparent;
+    backdrop-filter: blur(10px);
+
+
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.logo h1 b{
+    color: #fd46ee;
+
+}
+
+.menu{
+    height: 80px;
+
+}
+
+.menu nav{
+    height:100%;
+    
+}
+.menu nav ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+
+}
+
+
+
+/* <!--segundo session de texto persuasivo --> */
+.headernumerodos{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    margin-top: 1px;
+
+   background-color: #0c0c0c;
+   color: #e911ba;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+}
+
+
+.titulopersuasivo{
+    font-size: 33px;
+    padding-top: 40px;
+}
+
+.titulopersuasivo p{
+    font-size: 33px;
+    color: rgb(248, 6, 196);
+}
+
+
+/*portada que va y viene*/
+
+.banner{
+    margin-top: 87px;
+    position: relative;
+    width: 100%;
+    height: 470px;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(../imagenes/maquillaje\ portada.jpg);
+    animation: banner 11s infinite linear;
+}
+
+.banner-content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(63, 3, 43, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content  h3{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.banner-content a{
+    border-radius: 45px;
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 20px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.banner-content a:hover{
+    background-color:#f0276a ;
+}
+
+@keyframes banner{
+    0%{
+        background-image: url(../imagenes/maquillaje\ portada.jpg);
+
+
+    }
+    25%{
+        background-image: url(../imagenes/maquillaje\ portada.jpg);
+
+    }
+    26%{
+        background-image: url(../imagenes/mona\ bonita.png);
+
+
+    }
+    50%{
+        background-image: url(../imagenes/mona\ bonita.png);
+
+    }
+    51%{
+        background-image: url(../imagenes/morena\ maquillandose.png);
+
+
+    }
+    75%{
+        background-image: url(../imagenes/morena\ maquillandose.png);
+
+    }
+    76%{
+        background-image: url(../imagenes/maquillando.png);
+
+
+    }
+    100%{
+        background-image: url(../imagenes/maquillando.png);
+
+    }
+}
+
+
+
+/*div-  que posee el que aprenderas 1"*/
+
+.renglon-1{
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0c0c0c;
+    color: #fff;
+
+}
+
+.renglon-1 h2{
+    font-size: 40px;
+}
+
+
+.divquecontienelaslistaseimagen li{
+    font-size: 25px;
+padding-bottom: 40px ;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.divquecontienelaslistaseimagen ul{
+    list-style-type: none;
+
+
+
+}
+
+
+/*session de como lolograras-->*/
+
+.session__como-lo-lograras {
+    width: 100%;
+    height: 800px;
+    background-color: #f753d3;
+    padding-top: 20px;   
+
+}
+
+.session__como-lo-lograras h2{
+    font-size: 30px;
+    text-align: center;
+   justify-content: center;
+   margin-bottom: 20px;
+
+}
+
+
+    
+.div-que-contiene-los-ul{
+    font-size: 25px;
+    padding-left: 90px;
+    text-align: center;
+
+}
+
+
+.div-que-contiene-los-ul ul{
+    list-style-type: none;
+
+}
+
+.div-que-contiene-los-ul ul p{
+     margin: 20px;
+}
+
+
+ 
+/*<!--segundaportada pero estatica -->*/
+
+.segunda-portada-pero-estatica{
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    height: 370px;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagenes/maquillaje\ portada.jpg);
+}
+
+.banner-de-segunda-portada-estatica{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(37, 6, 27, 0.705);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-de-segunda-portada-estatica h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    z-index: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.banner-de-segunda-portada-estatica a{
+    border-radius: 45px;
+    border: 1px solid #ee08b4;
+     margin-top: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 20px;
+    transform: uppercase;
+    transition: all .3s ease-in-out;
+    background-color: #fa08a9;
+    font-size: 50px;
+}
+
+.banner-de-segunda-portada-estatica a:hover{
+    background-color:#0e0d0d ;
+}
+
+
+/*gatantia*/
+
+.contenedor-de-garantia{
+    width: 100%;
+    height: 620px;
+    background-color: #0e0d0d;
+    color: #f5f5f5;
+   
+}
+
+.contenedor-de-garantia h1{
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.contenedor-de-garantia P{
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenedor-de-garantia .parrafodos{
+    text-align: center;
+    font-size: 40px;
+    color: #e911ba;
+
+}
+
+
+.contenedor-de-testimonio{
+    width: 100%;
+    height: 320px;
+    background-color: #fcf8fb;
+    color: black; 
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1300px;
+}
+
+.contenedor-de-testimonio h6{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* renglon rosado de descuentos*/
+
+.renglonrosadodedescuento{
+    width: 100%;
+    height: 110px;
+    background-color: #e608a7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.renglonrosadodedescuento h1{
+    font-size: 60px;
+    color: #fcf8fb;
+    padding-top: 20px;
+   
+}
+
+/*div contenedor de imagen de descuento y boton de compra*/
+.divcontenedordeimagendedescuento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+
+
+.divcontenedordeimagendedescuento img{
+    width: 800px;
+    height: 500px;
+    margin-top: 90px;
+    
+}
+
+.divcontenedordeimagendedescuento h4{
+    font-size: 28px;
+    margin-top: 20px;
+    color: #0c0c0c;
+    background-color: #faf6f6;
+}
+
+.divcontenedordeimagendedescuento a{
+    border-radius: 45px;
+    border: 1px solid #ee08b4;
+    margin-top: 20px;
+   text-decoration: none;
+   color: #fff;
+   padding: 9px 20px;
+   transform: uppercase;
+   transition: all .3s ease-in-out;
+   background-color: #fa08a9;
+   font-size: 50px;
+
+}
+
+
+.divcontenedordeimagendedescuento a:hover{
+    background-color:#0e0d0d ;
+
+
+}
+
+
+/* cuanto cuesta el curso en tu pais */
+.cuantocuestaelcursoentupais{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: #0c0c0c;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cuantocuestaelcursoentupais h3{
+    font-size: 50px;
+    color: #ee08b4;
+    padding-top: 60px;
+}
+
+.cuantocuestaelcursoentupais ul{
+    color: #f5f5f5;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cuantocuestaelcursoentupais P{
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+
+/*session de preguntas frecuentes*/
+
+.preguntasfrecuentes-padre{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.preguntasfrecuentes-padre h3{
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.contenedordepreguntas{
+    margin-top: 22px;
+}
+
+.contenedordepreguntas h4 {
+    font-size: 22px;
+    background-color: #e608a7;
+}
+
+.contenedordepreguntas p{
+    font-size: 22px;
+    padding: 40px;
+}
+
+/*sessiondebonosderegalo*/
+
+.sessiondebonosderegalo{
+    width: 100%;
+    height: 1000px;
+    background-color: #f1e7e7;
+}
+
+
+.cintarosadadebonosderegalo  {
+    width: 80%;
+    height: 100px;
+    background-color: rgb(114, 3, 71);
+    margin-left: 160px;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+
+.cintarosadadebonosderegalo h3{
+    padding-top: 16px;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 7px;
+
+    
+}
+
+.div-contenedor-de-tarjetas{
+    display: flex;
+}
+
+.tarjeta{
+    margin: 29px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.tarjeta h4{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.tarjeta p{
+    text-align: center;
+    justify-content: center;
+    font-size: 23px;
+}
+.div-contenedor-de-tarjetas .tarjeta img{
+    width: 320px;
+    margin-left: 25px;
+   
+    
+
+}
+
+.sessiondebonosderegalo a{
+
+    border: 1px solid #ee08b4;
+    margin-top: 20px;
+   text-decoration: none;
+   color: #fff;
+   padding: 9px 20px;
+   transform: uppercase;
+   transition: all .3s ease-in-out;
+   background-color: #fa08a9;
+   font-size: 50px;
+   margin-left: 260px;
+   border-radius: 45px;
+
+}
+
+.sessiondebonosderegalo a:hover{
+    background-color:#0e0d0d ;
+
+}
+
+.sessiondebonosderegalo .textovavanodeoportunidades{
+    margin-bottom: 40px;
+    font-size: 28px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*certificado*/
+
+.contenedordecertificado{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(12, 12, 12);
+
+   
+
+}
+
+.contenedordecertificado h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+    
+.contenedorul{
+    margin: 30px;
+    display: flex;
+
+}
+
+.contenedorul ul {
+padding-right:20px ;
+padding-top: 50px;
+flex-direction: column;
+color: #efb810;
+margin-left: 30px;
+font-size: 25px;
+
+}
+
+.contenedorul li{
+margin-bottom: 40px;
+}
+
+.contenedorul .divcontenedordeimagen{
+    margin-left: 90px;
+
+}
+
+.contenedordecertificado a{
+    
+    text-decoration: none;
+    margin-left: 500px;
+    border-radius: 45px;
+    border: 1px solid #ee08b4;
+    margin-top: 20px;
+   color: #fff;
+   padding: 9px 20px;
+   transform: uppercase;
+   transition: all .3s ease-in-out;
+   background-color: #fa08a9;
+   font-size: 30px;
+}
+
+.contenedordecertificado a:hover{
+    background-color: #0c0c0c;
+}
+
+/*animacion vacanita de las fotos */
+@keyframes show {
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+    
+        
+}
+
+img{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 40%;
+}
+
+
+
+
+/* session de perfil profesional*/
+ 
+.sectiondeperfilprofesional{
+    width: 100%;
+    height: 500px;
+    background-color: #0c0c0c;
+    color: #f5f5f5;
+}
+
+.sectiondeperfilprofesional h5{
+    font-size: 30px;
+    padding-top: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sectiondeperfilprofesional b{
+    color: #e608a7;
+}
+
+.contenedor-del-parrafo-y-la-imagen{
+    display: flex;
+    margin: 60px;
+
+}
+
+.contenedor-del-parrafo-y-la-imagen p{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+
+
+/*pequeña franja rosa que contiene la medalla de garantia*/
+.pequeñafranjacontenedoradelamedalladegarantia {
+    width: 100%;
+    height: 300px;
+    background-color: #750656f1;
+    display: flex;
+    color: #f1e7e7;
+    
+}
+
+.pequeñafranjacontenedoradelamedalladegarantia img{
+    margin: 50px;
+}
+
+.pequeñafranjacontenedoradelamedalladegarantia .contenedordetituloyparrafo h5{
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.pequeñafranjacontenedoradelamedalladegarantia .contenedordetituloyparrafo p{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+/*<!--seccionde boton final-->*/
+.secciondebotonfinal {
+    width: 100%;
+    height: 300px;
+    background-color:black;
+    color: #f5f5f5;
+}
+
+.secciondebotonfinal p{
+    font-size: 30px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.secciondebotonfinal a{
+    margin-left: 500px;
+    text-decoration: none;
+    border-radius: 45px;
+    border: 1px solid #ee08b4;
+    margin-top: 20px;
+   text-decoration: none;
+   color: #fff;
+   padding: 9px 20px;
+   transform: uppercase;
+   transition: all .3s ease-in-out;
+   background-color: #fa08a9;
+   font-size: 50px;
+
+}
+
+.secciondebotonfinal a:hover{
+    background-color: #0c0c0c;
+}
+
+
+
+/*botoncitode watsap fijo*/
+
+a img{
+    width: 50px;
+    margin-left: 1300px;
+    position: fixed;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+
+/* diseño responsivo */
+
+@media  (max-width:1220px){
+    /*heather contenedor del logo y el hl que ahora esta transparente*/
+    .header-content{
+        height: 10px;
+    }
+
+
+    .logo h1{
+        font-size: 25px;
+    }
+
+    /*heater negro debajo de la portada con texto persuasivo*/
+    .headernumerodos .titulopersuasivo{
+        font-size: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .headernumerodos .titulopersuasivo p{
+        font-size: 20px;
+        padding-bottom: 20px;
+
+}
+
+/*session que pose lo que aprenderas*/
+   .renglon-1{
+    height: 1690px;
+   }
+
+
+   .renglon-1 h2{
+    font-size: 30px;
+    margin: 20px;
+
+    margin-bottom: 20px;
+   }
+
+   .divquecontienelaslistaseimagen ul li{
+    font-size: 24px;
+   }
+
+   /*<!--session de como lolograras-->*/
+   .session__como-lo-lograras{
+    height: 1859px;
+    
+   }
+
+   .session__como-lo-lograras h2{
+    font-size: 26px;
+    padding-top: 9px;
+
+
+   }
+
+   .session__como-lo-lograras    .div-que-contiene-los-ul ul{
+    text-align: left;
+    margin-right: 70px;
+
+   }
+    
+
+
+   .div-que-contiene-los-ul ul{
+    
+    margin-right: 20px;
+    font-size: 23.3px;
+    margin-top: 20px;
+    
+   }
+
+   .div-que-contiene-los-ul  p{
+    text-align: center;
+    justify-content: center;
+       
+      
+}
+
+
+/* <!--segundaportada pero estatica --> */
+.banner-de-segunda-portada-estatica h3{
+    font-size: 23px;
+    margin-top: 95px;
+    background-color: rgba(32, 3, 21, 0.753);
+}
+
+.banner-de-segunda-portada-estatica a{
+
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 45px;
+    border: 1px solid #ee08b4;
+    margin-top: 20px;
+   text-decoration: none;
+   color: #fff;
+   padding: 9px 20px;
+   transform: uppercase;
+   transition: all .3s ease-in-out;
+   background-color: #fa08a9;
+
+
+}
+
+/*garantia*/
+
+.contenedor-de-garantia {
+    height: 710px;
+}
+
+
+.contenedor-de-garantia h1{
+    font-size: 27px;
+    padding-top: 25px;
+}
+
+.contenedor-de-garantia p{
+    font-size: 23px;
+
+
+}
+
+.contenedor-de-garantia .parrafodos{
+    font-size: 24px;
+}
+
+/**testimonio**/
+
+
+.contenedor-de-testimonio{
+    margin-bottom: 399px;
+}
+
+
+.contenedor-de-testimonio h6{
+    font-size: 40px;
+}
+
+.contenedor-de-imagenes-de-testimonio .captura{
+    width: 350px;
+}
+
+.contenedor-de-imagenes-de-testimonio .captura__chat{
+    width: 350px;
+
+}
+
+/*   <!--aprovecha la oportunidad del 73% de descuento solo por hoy -->
+  */
+
+  .renglonrosadodedescuento{
+    width: 100%;
+    height: 90px;
+  }
+
+  .renglonrosadodedescuento h1{
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .divcontenedordeimagendedescuento img{
+    width: 100%;
+    height: 200px;
+    margin: 50px;
+  }
+
+  .divcontenedordeimagendedescuento h4{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .divcontenedordeimagendedescuento a{
+    font-size: 21px;
+  }
+
+  /* cuanto cuesta el curso en tu pais */
+  .cuantocuestaelcursoentupais h3{
+    font-size: 25px;
+    margin: 25px;
+  }
+
+  .cuantocuestaelcursoentupais ul {
+    font-size: 25px;
+  }
+
+  /* preguntas frecuentes */
+  .preguntasfrecuentes-padre {
+    margin-bottom: 400px;
+  }
+
+  .preguntasfrecuentes-padre h3{
+    font-size: 34px;
+
+
+}
+/*<!--caja que contiene rosada de bonos de regalo ultimos cupos -->*/
+
+.sessiondebonosderegalo{
+    margin-bottom: 1px;
+    align-items: center;
+    height: 1700px;
+}
+.sessiondebonosderegalo a{
+    font-size: 19.2px;
+    margin: 0, 0, 0, 0;
+    margin-left: 10px;
+    
+    
+}
+
+.sessiondebonosderegalo .cintarosadadebonosderegalo{
+    width: 90%;
+    height: 40px;
+   margin-left: 20px;
+   padding-bottom: 50px;
+}
+.cintarosadadebonosderegalo h3{
+    font-size: 17px;
+}
+
+.div-contenedor-de-tarjetas{
+    flex-direction: column;
+}
+.sessiondebonosderegalo .div-contenedor-de-tarjetas .tarjeta{
+  margin-right: 30px;
+}
+
+.sessiondebonosderegalo .div-contenedor-de-tarjetas .tarjeta img{
+    width: 220px;
+    margin-left: 60px;
+
+
+}
+
+/*<!--certificado-->*/
+
+.contenedordecertificado{
+    height: 1000px;
+    flex-direction: column;
+
+
+}
+
+.contenedorul{
+    flex-direction: column;
+}
+.contenedordecertificado .divcontenedordeimagen {
+    width: 50%;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+    
+
+.contenedordecertificado .divcontenedordeimagen .imagencertificado {
+    height: 190px;
+}
+
+
+.contenedordecertificado h1{
+    font-size: 33px;
+}
+
+.contenedordecertificado.contenedorul  li{
+    text-align: center;
+}
+.contenedordecertificado a {
+    font-size: 18px;
+    margin: 0, 0, 0, 0;
+    margin-left: 55px;
+   
+}
+
+/* mi perfil profesional*/
+
+.sectiondeperfilprofesional{
+    margin-bottom: 0px;
+    height: 1500px;
+
+}
+.contenedor-del-parrafo-y-la-imagen {
+    flex-direction: column;
+}
+
+
+.contenedor-del-parrafo-y-la-imagen p{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.contenedor-del-parrafo-y-la-imagen img{
+}
+
+
+/*<!--pequeñafranjacontenedoradelamedalladegarantia-->*/
+.pequeñafranjacontenedoradelamedalladegarantia{
+    flex-direction: column;
+    height: 650px;
+}
+
+.pequeñafranjacontenedoradelamedalladegarantia img{
+    height: 150px;
+    width: 150px;
+    margin-left: 120px;
+
+
+
+
+}
+.pequeñafranjacontenedoradelamedalladegarantia .contenedordetituloyparrafo h5{
+    font-size: 30px;
+    margin-top: 1px;
+   padding-bottom: 15px;
+}
+
+.pequeñafranjacontenedoradelamedalladegarantia  .contenedordetituloyparrafo p{
+    margin: 30px;
+    font-size: 25px;
+}
+
+/*seccionde boton final-->*/
+.secciondebotonfinal p{
+    font-size: 21px;
+padding-top: 50px;
+}
+
+.secciondebotonfinal a{
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+
+
+ 
+
+
+
+}
